@@ -11,9 +11,6 @@
   </extension>
 	
   <extension point="xbmc.addon.metadata">
-  <news>
-Add-on Retirado do Canal TONY WARLLEY TUTORIAIS, não baixe Add-ons que não sejam Oficial, Add-ons Oficiais somente no CANAL TONY WARLLEY TUTORIAIS.
-        </news>
     <summary lang="en">Addon dos Trapalhoes</summary>
     <description lang="en">Addons de Filmes dos Trapalhoes</description>
     <platform>all</platform>
