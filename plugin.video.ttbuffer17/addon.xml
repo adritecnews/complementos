@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.ttbuffer17"
-       name="TT Buffer Fix"
-       version="0.8.8"
-       provider-name="TopTutorials">
+<addon id="plugin.program.ttbuffer17" name="TT Buffer Fix" version="0.8.8" provider-name="TopTutorials">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.python.pluginsource"
-               	library="default.py">
+    <extension point="xbmc.python.pluginsource"	library="default.py">
         <provides>video executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -21,8 +17,9 @@
         <website></website>
         <source></source>
         <email></email>
-		<icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </extension>
-	
+		<assets>
+		   <icon>icon.png</icon>
+           <fanart>fanart.jpg</fanart>
+		</assets>
+    </extension>	
 </addon>
