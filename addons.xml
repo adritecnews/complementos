@@ -1443,6 +1443,8 @@ Apenas disponibiliza conteúdos de terceiros
         <website></website>
         <source></source>
         <email></email>
+		<icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
     </extension>
 
 </addon>
