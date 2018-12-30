@@ -15,23 +15,19 @@
         <website>http://adritecnews.com</website>
         <source></source>
         <forum></forum>
-        <news>
-*Este trabalho está licenciado sob uma Licença Creative Commons 
-*Atribuição-NãoComercial-SemDerivações 4.0 Internacional. 
-*Para ver uma cópia desta licença, 
-*visite: http://creativecommons.org/licenses/by-nc-nd/4.0/.</news>
+        <news>Este trabalho está licenciado sob uma Licença Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional. Para ver uma cópia desta licença, visite http://creativecommons.org/licenses/by-nc-nd/4.0/.</news>
         <assets>
             <icon>images/icon.png</icon>
             <fanart>images/fanart.jpg</fanart>
-            <screenshot>resources/print/0.jpg</screenshot>
-            <screenshot>resources/print/1.jpg</screenshot>
-            <screenshot>resources/print/2.jpg</screenshot>
-            <screenshot>resources/print/3.jpg</screenshot>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
         </assets>
     </extension>
   <extension point="xbmc.addon.repository" name="adritecNews Repository">
-	<info compressed="false">http://raw.github.com/adritec/adritecrepo/master/addons.xml</info>
-	<checksum>http://raw.github.com/adritec/adritecrepo/master/addons.xml.md5</checksum>
-	<datadir zip="true">http://raw.github.com/adritec/adritecrepo/master/repo/</datadir>
+		<info compressed="false">http://raw.github.com/adritecnews/complementos/adritec/addons.xml</info>
+		<checksum>http://raw.github.com/adritecnews/complementos/adritec/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/adritecnews/complementos/adritec</datadir>
   </extension>	
 </addon>
