@@ -46,24 +46,7 @@
 
 <addon id="plugin.program.adritecnewsinstalladdons" name="[COLOR dodgerblue][B]Adritec[/B][COLOR red][B]News[/B] [COLOR gold][B]ON[/B][/COLOR]" version="2.0.0" provider-name="[COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]">
   <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer"/>
-    <import addon="script.module.pyamf"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.addon.signals" version="0.0.1"/>
-    <import addon="script.module.unidecode" version="0.4.16"/>
-    <import addon="script.module.requests" version="1.0.0" />
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="adritec.py">
   <provides>video executable</provides>
@@ -901,7 +884,7 @@ O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Founda
   </extension>
 </addon>
 
-<addon id="plugin.video.Jonas Gabriel" name="Jonas Gabriel" version="1.0" provider-name="Jonas Gabriel">
+<addon id="plugin.video.JonasGabriel" name="Jonas Gabriel" version="1.0" provider-name="Jonas Gabriel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
