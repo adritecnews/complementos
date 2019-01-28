@@ -4,7 +4,7 @@
        version="[B][COLOR gold]5.2[/COLOR][/B]"
        provider-name="[B][COLOR gold]Lucas Cardoso[/COLOR][/B]">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.0.5"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>

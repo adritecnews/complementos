@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.xxx-o-dus" 
+	     name="[COLOR red][B]XXX[COLOR white]-[COLOR fuchsia]O-DUS[/B][/COLOR]" 
+	     version="3.00.029" 
+	     provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.echo"/>
+    <import addon="script.xxxodus.artwork"/>
+    <import addon="script.xxxodus.scrapers"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.urlresolver.xxx"/>
+    <import addon="script.module.pyxbmct"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">[B]Muitos sites para lhe trazer centenas de milhares de vídeos.[/B]</summary>
+    <description lang="en">[COLOR white]Os recursos do addon incluem, monitoramento de histórico, favoritos, vídeos para download, controles parentais e muito mais![/COLOR]
+[COLOR white]Websites Incluidos: Porn.com, PornHD.com, Chaturbate.com, RedTube.com, Xhamster.com, YouPorn.com, PornFun.com, Motherless.com,Porn00.org, Spankbang.com, Virtualpornstars.com, Watchxxxfree.com, Perfectgirls.net, XNXX.com e muito mais[/COLOR]</description>
+    <disclaimer lang="en">As páginas deste addon são projetadas apenas para ADULTOS e podem incluir imagens e materiais que alguns espectadores podem achar ofensivos. Se você tem menos de 18 anos, se tal material ofender ou se for ilegal ver esse material em sua comunidade, saia do addon.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <website>https://github.com/Colossal1/plugin.video.xxx-o-dus</website>
+    <forum>https://github.com/Colossal1/plugin.video.xxx-o-dus</forum>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
