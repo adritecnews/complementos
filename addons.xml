@@ -1286,7 +1286,7 @@ l [COLOR firebrick]FENIX[/COLOR] DO CINEMA PARA A SUA CASA [COLOR firebrick]l[/C
 
 <addon id="plugin.video.KeltecMP"
        name="[B][COLOR blue]KeltecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]"
-       version="1.7"
+       version="2.0"
        provider-name="Ezequiel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
