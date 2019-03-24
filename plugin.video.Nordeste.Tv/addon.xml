@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Nordeste.Tv" name="[COLOR yellow][B]Nordeste[/COLOR][COLOR green][B]Tv[/B][/COLOR]" version="1.0." provider-name="Luis Carlos">
+<addon id="plugin.video.Nordeste.Tv" name="[COLOR yellow][B]Nordes[/COLOR][COLOR green][B]Tv[/B][/COLOR]" version="1.1" provider-name="Luis Carlos e MatheuZ">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -16,7 +16,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Nordeste Tv</summary>
+    <summary lang="en">NordesTv</summary>
     <description lang="en">TODO conteúdo que se encontram aqui no site são encontrados na própria internet,apenas estamos disponibilizando de uma maneira mais facil para todos brasileiros</description>
     <platform>all</platform>
   </extension>
