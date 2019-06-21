@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Live.Tv" 
        name="[COLOR orange][B][COLOR lime]Live[/COLOR] TV[/B]" 
-       version="1.8" 
+       version="1.9" 
        provider-name="Live Tv">
     <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -26,7 +26,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">FILMES [COLOR lime]|[/COLOR] SÉRIES [COLOR lime]|[/COLOR] ANIMES [COLOR lime]|[/COLOR] FILMES MAIS ESPERADOS [COLOR lime]|[/COLOR] COLETÂNEA [COLOR lime]|[/COLOR] TV AO VIVO</summary>
 	
-	<description lang="en">[COLOR lime]|[/COLOR] O autor não hospeda nem possui nenhum conteúdo encontrado neste addon [COLOR lime]|[/COLOR]
+	<description lang="en">[COLOR lime]|[/COLOR] O Live Tv é Responsável Por Todos Os Conteúdos encontrado neste addon[COLOR lime]|[/COLOR]
 
 MELHOR LISTA DE CANAIS VIA INTERNET  [COLOR orange][B][COLOR lime]LIVE[/COLOR] TV[/B]</description>
 	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>

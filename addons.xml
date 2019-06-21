@@ -1814,9 +1814,9 @@ Channels and Playlists organized by categories. Source: Youtube Website.
   </extension>
 </addon>
 
-<addon id="plugin.video.fenix.evolution"
-       name="[B][COLOR firebrick]FENIX[/COLOR][/B]"
-       version="2.9"
+<addon id="plugin.video.fenix.flix"
+       name="[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]"
+       version="3.1"
        provider-name="Alderson">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1844,7 +1844,7 @@ Channels and Playlists organized by categories. Source: Youtube Website.
 	<description lang="en">[COLOR firebrick]l[/COLOR] TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] O autor não hospeda nem possui nenhum conteúdo encontrado neste addon. O autor não é responsável pelo uso e pelo conteúdo encontrado neste addon [COLOR firebrick]l[/COLOR]
 
-l [COLOR firebrick]FENIX[/COLOR] EVOLUTION - DO CINEMA PARA SUA CASA - 100% HD [COLOR firebrick]l[/COLOR]</description>
+l [COLOR firebrick]FENIX[/COLOR] FLIX - DO CINEMA PARA SUA CASA - 100% FHD [COLOR firebrick]l[/COLOR]</description>
 	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
     <platform>all</platform>
 	<website/>
@@ -1860,34 +1860,28 @@ l [COLOR firebrick]FENIX[/COLOR] EVOLUTION - DO CINEMA PARA SUA CASA - 100% HD [
   </extension>
 </addon>
 
-<addon id="plugin.video.flechanegra"
-       name="[COLOR red]FLECHA NEGRA[/COLOR]"
-       version="1.0"
-       provider-name="Flecha">
+<addon id="plugin.video.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR]" version="2.5" provider-name="Flecha">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.livestreamer" optional="true"/>
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-        <summary lang="en">[[COLORorange][B]Flecha Negra é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR][/B]</summary>
-        <description lang="en">[COLORorange][B]Flecha Negra é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR][/B]</description>
+    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2208,7 +2202,7 @@ Requer o addon [COLOR yellow]GDrive[/COLOR] para funcionar Os Filmes Dublados.</
 
 <addon id="plugin.video.Live.Tv"
        name="[COLOR orange][B][COLOR lime]Live[/COLOR] TV[/B]"
-       version="1.8"
+       version="1.9"
        provider-name="Live Tv">
     <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2233,7 +2227,7 @@ Requer o addon [COLOR yellow]GDrive[/COLOR] para funcionar Os Filmes Dublados.</
   <extension point="xbmc.addon.metadata">
     <summary lang="en">FILMES [COLOR lime]|[/COLOR] SÉRIES [COLOR lime]|[/COLOR] ANIMES [COLOR lime]|[/COLOR] FILMES MAIS ESPERADOS [COLOR lime]|[/COLOR] COLETÂNEA [COLOR lime]|[/COLOR] TV AO VIVO</summary>
 
-	<description lang="en">[COLOR lime]|[/COLOR] O autor não hospeda nem possui nenhum conteúdo encontrado neste addon [COLOR lime]|[/COLOR]
+	<description lang="en">[COLOR lime]|[/COLOR] O Live Tv é Responsável Por Todos Os Conteúdos encontrado neste addon[COLOR lime]|[/COLOR]
 
 MELHOR LISTA DE CANAIS VIA INTERNET  [COLOR orange][B][COLOR lime]LIVE[/COLOR] TV[/B]</description>
 	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
@@ -2636,9 +2630,9 @@ l [COLOR green][B]Nordes [/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR]- DO CINEMA 
   </extension>
 </addon>
 
-<addon id="plugin.video.OnePlayHD"
-       name="[COLOR aquamarine][B]OnePlay[/COLOR] [COLOR white][B]HD[/B][/COLOR]"
-       version="2.5.1"
+<addon id="plugin.video.OnePlay"
+       name="[COLOR aquamarine][B]ONEPLAY[/B][/COLOR]"
+       version="2.6"
        provider-name="Equipe OnePlay">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2660,20 +2654,21 @@ l [COLOR green][B]Nordes [/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR]- DO CINEMA 
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR aquamarine]OnePlay[/COLOR][COLOR white] HD[/COLOR] é apenas um AGREGADOR de links, Apenas agrega e organiza os links externos.</summary>
+    <summary lang="en">[COLOR aquamarine]OnePlay[/COLOR] é apenas um AGREGADOR de links, Apenas agrega e organiza os links externos.</summary>
     <description lang="en">[B][COLOR white]TV, Filmes, Series, Desenhos, Animes, Novelas e Muito Mais.[/COLOR][/B]</description>
 	<news>[COLOR aquamarine]Atualização v2.1.0[/COLOR]: BEM VINDO AO ONEPLAY-HD.
 [COLOR aquamarine]Atualização v2.2.1[/COLOR]: ATUALIZAÇÃO DE PLUGINS E IMAGENS.
 [COLOR aquamarine]Atualização v2.3.0[/COLOR]: ATUALIZAÇÃO PARA MELHORIAS E ESTABILIDADE.
 [COLOR aquamarine]Atualização v2.5.0[/COLOR]: MUDANÇA DE SERVIDOR, MAIS SEGURANÇA E FACILIDADE PARA A EQUIPE ONEPLAY.
-[COLOR aquamarine]Atualização v2.5.1[/COLOR]: ATUALIZAÇÃO DO SERVIDOR.</news>
+[COLOR aquamarine]Atualização v2.5.1[/COLOR]: ATUALIZAÇÃO DO SERVIDOR.
+[COLOR aquamarine]Atualização v2.6.0[/COLOR]: ATUALIZAÇÃO DO SERVIDOR E NOVAS IMAGENS.</news>
     <platform>all</platform>
 	<assets>
 <icon>icon.png</icon>
 <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/1.jpg</screenshot>
-<screenshot>resources/screenshots/2.jpg</screenshot>
-<screenshot>resources/screenshots/3.jpg</screenshot>
+<screenshot>resources/screenshots/1.jpeg</screenshot>
+<screenshot>resources/screenshots/2.jpeg</screenshot>
+<screenshot>resources/screenshots/3.jpeg</screenshot>
 </assets>
   </extension>
 </addon>
@@ -3352,8 +3347,8 @@ Artwork by @konsumer420
 	</extension>
 </addon>
 
-<addon id="repository.fenix.evolution" name="[COLOR firebrick]Fenix[/COLOR][COLOR white] Repo[/COLOR]" version="1.0" provider-name="Alderson">
-	<extension point="xbmc.addon.repository" name="Repositorio Fenix Evolution">
+<addon id="repository.fenix.flix" name="[B][COLOR firebrick]Fenix[/COLOR][COLOR white] Repo[/B][/COLOR]" version="1.0" provider-name="Alderson">
+	<extension point="xbmc.addon.repository" name="Repositorio Fenix Flix">
 		<info compressed="false">https://fenixevolution.000webhostapp.com/Repo.Fenix/addons.xml</info>
 		<checksum>https://fenixevolution.000webhostapp.com/Repo.Fenix/addons.xml.md5</checksum>
 		<datadir zip="true">https://fenixevolution.000webhostapp.com/Repo.Fenix/Plugins</datadir>
