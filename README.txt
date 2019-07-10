@@ -4,4 +4,4 @@
 Addons EXTRAÍDOS da Internet para o Kodi XBMC.
 by adritecNews.
 
-21/06/2019
+10/07/2019
