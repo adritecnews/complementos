@@ -2952,34 +2952,37 @@ Artwork by @konsumer420
 </addon>
 
 <addon id="plugin.video.Tv-Fogo-HD"
-       name="[COLOR red][B]Tv Fogo HD [/B][/COLOR]"
-       version="2.1"
-       provider-name="[COLOR yellow][B]Rique[/B][/COLOR]">
+       name="[B][COLOR red]Tv Fogo HD[/COLOR][/B]"
+       version="4.0"
+       provider-name="[B][COLOR yellow]Equipe: TV Fogo[/COLOR][/B]">
+
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver"/>
     <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.livestreamer" optional="true"/>
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR white]Tv Fogo HD é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</summary>
-    <description lang="en">[B][COLOR red]TV, Filmes, Séries, Desenhos e Animes.[/COLOR]</description>
+    <summary lang="en">[B][COLOR white]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR white]Tv Fogo HD é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <news>
+[B][COLOR chocolate]v4.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+</news>
     <platform>all</platform>
+	<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
   </extension>
 </addon>
 
@@ -3499,6 +3502,22 @@ Artwork by @konsumer420
         <screenshot>resources/screenshots/03.jpg</screenshot>
       </assets>
 	</extension>
+</addon>
+
+<addon id="repository.Tv-Fogo-HD" name="[B][COLOR red]REPO Tv Fogo HD[/COLOR][/B]" version="1.0" provider-name="[B][COLOR yellow]Equipe: TV Fogo[/COLOR][/B]">
+  <extension point="xbmc.addon.repository" name="[B][COLOR red]REPO Tv Fogo HD[/COLOR][/B]">
+    <info compressed="false">https://raw.githubusercontent.com/fogohd/repositorio/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/fogohd/repositorio/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/fogohd/repositorio/master/plugins/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Repositório oficial Tv Fogo HD</summary>
+    <description lang="en">Repositório oficial Tv Fogo HD
+</description>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="script.adritecnewsfeednews" name="[COLOR gold][B]FEED [/B][/COLOR][COLOR lawngreen][B]NEWS[/B][/COLOR]" version="1.0.0" provider-name="[COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]">

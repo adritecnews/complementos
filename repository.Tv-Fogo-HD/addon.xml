@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Tv-Fogo-HD" name="[B][COLOR red]REPO Tv Fogo HD[/COLOR][/B]" version="1.0" provider-name="[B][COLOR yellow]Equipe: TV Fogo[/COLOR][/B]">
+  <extension point="xbmc.addon.repository" name="[B][COLOR red]REPO Tv Fogo HD[/COLOR][/B]">
+    <info compressed="false">https://raw.githubusercontent.com/fogohd/repositorio/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/fogohd/repositorio/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/fogohd/repositorio/master/plugins/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Repositório oficial Tv Fogo HD</summary>
+    <description lang="en">Repositório oficial Tv Fogo HD
+</description>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
