@@ -101,9 +101,7 @@
 	</extension>
 </addon>
 
-<addon id="OnePlayHD.repo"
- name="[B][COLOR white]Repositorio OnePlayHD[/COLOR][/B]"
-version="1.00" provider-name="TeamOnePlayHD">">
+<addon id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]OnePlay[/COLOR][/B]" version="1.03" provider-name="Team [COLOR aquamarine]OnePlay[/COLOR]">
 	<requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -112,7 +110,6 @@ version="1.00" provider-name="TeamOnePlayHD">">
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="plugin.video.youtube" version="5.2.1" />
     <import addon="script.module.urlresolver" />
     <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer"/>
@@ -125,13 +122,13 @@ version="1.00" provider-name="TeamOnePlayHD">">
 
   </requires>
   <extension point="xbmc.addon.repository" name="Vikings Repository">
-		<info compressed="false">http://raw.github.com/OnePlayHD/OnePlayHD.repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/OnePlayHD/OnePlayHD.repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/OnePlayHD/OnePlayHD.repo/master/ZipFiles/</datadir>
+		<info compressed="false">http://raw.githubusercontent.com/OnePlayHD/OneRepo/master/addons.xml</info>
+		<checksum>http://raw.githubusercontent.com/OnePlayHD/OneRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.githubusercontent.com/OnePlayHD/OneRepo/master/ZipFiles/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio Oficial OnePlayHD</summary>
-		<description>Repositorio oficial OnePlayHD - Proibido reproducao sem previa autorizacao</description>
+		<summary>Repositorio Oficial OnePlay</summary>
+		<description>Repositorio oficial OnePlay - Proibido reproducao sem previa autorizacao</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
@@ -773,28 +770,33 @@ Channels and Playlists organized by categories. Source: Youtube Website.
   </extension>
 </addon>
 
-<addon id="plugin.video.braziltv" name="BrazilTV" version="0.7" provider-name="teamBrazilTV">
+<addon id="plugin.video.braziltv" name="BrazilTV" version="1.2" provider-name="teamBrazilTV">
   <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="plugin.video.f4mTester" version="2.7.1" optional="true"/>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="plugin.video.f4mTester" version="2.7.1"/>
+    <import addon="plugin.video.youtube" version="6.5.1" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">IPTV livre para todos.</summary>
-    <description lang="en">[COLOR lime]Instale nosso repositório oficial (BrazilTV Repo) para receber atualizações rapidamente![/COLOR]
-[COLOR yellow]Requer os addons F4mProxy e f4mTester para funcionar.[/COLOR]
+    <description lang="en">[B]ATENÇÃO:[/B] Não hospedamos nem temos ligação com nenhum dos conteúdos deste addon, apenas reunimos links e conteúdos de terceiros.
 
-[B]ATENÇÃO:[/B] Não hospedamos nem temos ligação com nenhum dos conteúdos deste addon, apenas reunimos links de transmissões públicas feitas por terceiros. A estabilidade 100% dos canais não é garantida, mas estamos trabalhando diariamente para tentar mantê-la. Os dados de EPG também são de disponibilidade pública e encontrados na internet. Fique atento a atualizações futuras em nosso site oficial.</description>
+[COLOR lightblue]Use apenas instalações através do nosso repositório oficial (BrazilTV Repo)![/COLOR]</description>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
     </assets>
-    <website>http://bit.ly/BrazilTVKodi</website>
-    <news>[COLOR lime]v0.7 - Primeiro addon de TV do Brasil com EPG embutido (beta)! Agora com novas funções de EPG completo por canal e outras modificações.[/COLOR]
+    <website>https://braziltv.yolasite.com</website>
+    <news>[COLOR lime]v1.2[/COLOR]
+- Ferramenta de favoritos
+- Opção de mudança do protocolo de transmissão
+- Bugs corrigidos
+- Atualização automática removida
+- Outras melhorias gerais de estabilidade
 
-[COLOR white][B]Envie sugestões de funcionalidades no nosso site oficial![/B][/COLOR]</news>
+[COLOR white][B]Fique atento a atualizações e envie sugestões de funcionalidades na nossa página do Facebook![/B][/COLOR]</news>
   </extension>
 </addon>
 
@@ -982,49 +984,72 @@ Channels and Playlists organized by categories. Source: Youtube Website.
 </addon>
 
 <addon id="plugin.video.conexao"
-       name="[B][COLOR beige]Cone[B][COLOR violet][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR magenta] Play[/COLOR][/B]"
-       version="2.0.3"
-       provider-name="[B][COLOR beige]Cone[B][COLOR violet][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR magenta] Play[/COLOR][/B]">
-  <requires>
+       name="[B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]"
+       version="2.0.8"
+       provider-name="[B][COLOR lime]Equipe:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
+ <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.beautifulsoup4"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.urlresolver"/>
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.livestreamer" optional="true"/>
 
-    </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
+ </requires>
+  <extension point="xbmc.python.pluginsource" library="youtube.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Vikings Repository">
+		<info compressed="false">http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml</info>
+		<checksum>http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.githubusercontent.com/Marciocn/repo.conexaoTV/master/ZipFiles/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR beige]Cone[COLOR red][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR aquamarine]Multi[COLOR blue]-[COLOR aqua]Addons[/COLOR][/B][COLOR aqua][B]  Feito Pra Você[/B][/COLOR]</summary>
+    <disclaimer lang="en">O autor não é responsável pelo uso deste addon. O autor não é responsável pelo conteúdo encontrado usando este addon. O autor não hospeda ou possui qualquer conteúdo encontrado dentro deste addon. O autor não é de forma alguma afiliado com Kodi, Team Kodi, ou a Fundação XBMC. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais. fins protegidos pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, ao permitir o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+	<description lang="en">[COLOR lime]*TV*[COLOR red]*FILMES*[/COLOR][COLOR firebrick]*SERIES*[COLOR blue]*DESENHOS*[COLOR orange]*ANIMES*[COLOR cyan]*LANCAMENTOS*[COLOR lime]*HD*[COLOR yellow]*FHD*[/COLOR]</description>
+	<news>[COLOR lime] Atualização[COLOR red] v2.0.7:[/COLOR]
+		  [COLOR violet][B]Melhor Desempenho[/B][/COLOR]
+          [COLOR god][B]Melhorias de estabilidade[/B][/COLOR]
+</news>
+    <platform>all</platform>
+  <assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/1.jpeg</screenshot>
+<screenshot>resources/screenshots/2.jpeg</screenshot>
+<screenshot>resources/screenshots/3.jpeg</screenshot>
+  </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ConexaoTorrents" name="[B][COLOR beige]Cone[B][COLOR beige][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR aqua] Torrents[/COLOR][/B]" version="1.0.2" provider-name="Conexao Play">
+  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<!--import addon="script.module.urlresolver" version="2.10.0"/-->
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[B][COLOR beige]Cone[B][COLOR violet][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR magenta] Play[/COLOR][/B][COLOR aqua][B]  Feito Pra Você[/B][/COLOR]</summary>
-    <disclaimer lang="en">O autor não é responsável pelo uso deste addon. O autor não é responsável pelo conteúdo encontrado usando este addon. O autor não hospeda ou possui qualquer conteúdo encontrado dentro deste addon. O autor não é de forma alguma afiliado com Kodi, Team Kodi, ou a Fundação XBMC. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais. fins protegidos pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, ao permitir o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
-	<description lang="pt">[COLOR white][B]Add-on [B][COLOR beige]Cone[B][COLOR violet][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR magenta] Play[/COLOR][/B][COLOR gold] Com foco em conteúdos dublados[/COLOR] [COLOR lime]*TV*[COLOR red]*FILMES* [/COLOR] [COLOR firebrick]*SERIES* [COLOR blue]*DESENHOS*  [COLOR orange]*ANIMES* [COLOR cyan]*LANCAMENTOS* [COLOR lime]*HD* [COLOR yellow]*FHD*[/COLOR]</description>
-    <website>http://hydrasirius.ml/conexaotv/</website>
-    <email>candido.marcio.marcio@gmail.com</email>
-    <reuselanguageinvoker>false</reuselanguageinvoker>
-   <news>[COLOR lime]Atualização v2.0.3:[/COLOR]
-
-
-   [COLOR violet][B]Novas Thumbnails e Imagens de fundo[/B][/COLOR]
-   [COLOR aqua][B]Correções de bugs[/B][/COLOR]
-   [COLOR god][B]Melhorias de estabilidade[/B][/COLOR]
-
-
-
-
-
-</news>
-	<platform>all</platform>
+    <summary lang="en">[B][COLOR beige]Cone[B][COLOR beige][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR aqua] Torrents[/COLOR][/B]</summary>
+    <description lang="en">ASSISTA FILMES E SÉRIES EM TORRENTS DIRETO NO KODI.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
   </extension>
 </addon>
 
@@ -1840,7 +1865,7 @@ Channels and Playlists organized by categories. Source: Youtube Website.
 
 <addon id="plugin.video.fenix.flix"
        name="[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]"
-       version="3.1"
+       version="4.6.1"
        provider-name="Alderson">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1858,22 +1883,32 @@ Channels and Playlists organized by categories. Source: Youtube Website.
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.livestreamer" optional="true"/>
-  </requires>
+
+   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
+	<extension point="xbmc.addon.repository" name="Repositorio Fenix Flix">
+		<info compressed="false">https://fenix-flix.000webhostapp.com/Repo.Fenix.Flix/addons.xml</info>
+		<checksum>https://fenix-flix.000webhostapp.com/Repo.Fenix.Flix/addons.xml.md5</checksum>
+		<datadir zip="true">https://fenix-flix.000webhostapp.com/Repo.Fenix.Flix/Plugins</datadir>
+	</extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD</summary>
+    <summary lang="en">TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANÇAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD</summary>
 
-	<description lang="en">[COLOR firebrick]l[/COLOR] TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR]
+	<description lang="en">[COLOR firebrick]l[/COLOR] TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANÇAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] O autor não hospeda nem possui nenhum conteúdo encontrado neste addon. O autor não é responsável pelo uso e pelo conteúdo encontrado neste addon [COLOR firebrick]l[/COLOR]
 
-l [COLOR firebrick]FENIX[/COLOR] FLIX - DO CINEMA PARA SUA CASA - 100% FHD [COLOR firebrick]l[/COLOR]</description>
+l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR firebrick]l[/COLOR]</description>
+    <news>[COLOR firebrick]l[/COLOR] Atualização v4.6.1 [COLOR firebrick]l[/COLOR]
+
+[COLOR firebrick]l[/COLOR] Melhoria no carregameto do addon [COLOR firebrick]l[/COLOR]
+     [COLOR firebrick]l[/COLOR] Melhoria na Segurança [COLOR firebrick]l[/COLOR]
+       [COLOR firebrick]l[/COLOR] Correção de Bugs [COLOR firebrick]l[/COLOR]
+
+          [B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]</news>
 	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
     <platform>all</platform>
-	<website/>
-        <video_guide></video_guide>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
       <assets>
       	<icon>icon.png</icon>
     	<fanart>fanart.jpg</fanart>
@@ -1884,7 +1919,7 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - DO CINEMA PARA SUA CASA - 100% FHD [COLO
   </extension>
 </addon>
 
-<addon id="plugin.video.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR]" version="2.5" provider-name="Flecha">
+<addon id="plugin.video.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR]" version="2.7" provider-name="Flecha">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -2099,6 +2134,47 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - DO CINEMA PARA SUA CASA - 100% FHD [COLO
   </extension>
 </addon>
 
+<addon id="plugin.video.k.doc" name="K DOC" version="1.0" provider-name="KODIAZOR">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Documentary addon</summary>
+    <description lang="en">Documentarios legendados ou dobrados em [PT] e [BR] com qualidade HD.
+Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-MP[COLOR white] - [/COLOR][COLOR crimson]TORRENTS![/COLOR][/B]" version="1.2" provider-name="[COLOR crimson]Team - KelTec-MP[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="KeltecMP.repository" optional="false" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="YaP.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR crimson]Filmes Torrent - Series Torrent - [COLOR gold] (Dual-Audio) 1080P - 720P[/COLOR]</summary>
+        <description lang="en">[COLOR gold][B]KelTec-MP[COLOR white] - [/COLOR]TORRENTS![/B][/COLOR][COLOR crimson], oferece Filmes e Series, de qualidade 4K, H265 - 7.1, H264 - 5.1, 3D, 1080P e 720P e WEB-RIP, disponíveis para download via torrent, links totalmente funcionais e constantemente
+            atualizados.[/COLOR],</description>
+        <disclaimer lang="en">[COLOR darkgrey][B] KelTec-MP[/B][/COLOR][COLOR crimson]O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec-MP.TV [/B][/COLOR]Os creditos para a pagina: http://www.megatorrentshd.com[/COLOR]</disclaimer>
+        <website>http://keltecmp.ga/</website>
+        <forum>http://keltecmp-iptv.directorioforuns.com/forum</forum>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3.</license>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.KeltecMP"
        name="[B][COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]"
        version="3.2"
@@ -2126,6 +2202,25 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - DO CINEMA PARA SUA CASA - 100% FHD [COLO
     <summary lang="en">TV,Filmes,Series,Desenhos Online.</summary>
     <description lang="en">Sem servidor Próprio, conteúdos reorganizados de busca livre na internet! </description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KeltecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="19.09.11" provider-name="Team KeltecMP">
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
+		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">MMFilmes</summary>
+    <description lang="en">Addon modificado do PlaylistLoader 1.2.0 por Avigdor https://github.com/avigdork/xbmc-avigdork. Nao somos responsaveis por colocar o conteudo online, apenas indexamos. Para sugestoes e report de bugs nossa pagina no FB: [COLOR blue]https://www.facebook.com/groups/KELTEC.MP/[/COLOR]</description>
+	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+    <platform>all</platform>
+	<news> CORRIGIDO BUSCA, TROCA DE IMAGENS, MELHORIAS NA SEGURANÇA E ATUALIZALÇÕES SOMENTE VIA REPO.
+	</news>
   </extension>
 </addon>
 
@@ -2220,6 +2315,35 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - DO CINEMA PARA SUA CASA - 100% FHD [COLO
 [COLOR white][B]ATENCÃO:[/B][/COLOR] Este addon é apenas um agregador de links de transmissão publicas feitas por terceiros. Não hospedamos nem temos ligaçãoo com nenhum desses conteúdos. A estabilidade 100% dos canais nãoo é garantida. Fique atento a atualizações futuras.
 
 Requer o addon [COLOR yellow]GDrive[/COLOR] para funcionar Os Filmes Dublados.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.live.kodiazor" name="[COLOR orange][B]Kodiazor [COLOR orange]Team [COLOR orange]Addon[/B][/COLOR]" version="2.4" provider-name="[COLOR orange][B]Ricardo Pedroso[/B][/COLOR]">
+  <requires>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR yellow][B]Kodiazor Team Addon, tv grátis para todos.[/B][/COLOR]</summary>
+    <description>
+        [COLOR orange][B]Kodiazor Team Addon[/B][/COLOR]
+
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2629,10 +2753,10 @@ Nota: esse addon só funciona com Player gerenciador de torrents como o Quasar,Y
   </extension>
 </addon>
 
-<addon id="plugin.video.OnePlay"
-       name="[COLOR aquamarine][B]ONEPLAY[/B][/COLOR]"
-       version="2.6"
-       provider-name="Equipe OnePlay">
+<addon id="plugin.video.ntfplay"
+       name="[B][COLOR red]NETFREE[/COLOR] PLAY[/B]"
+       version="1.3"
+       provider-name="[B][COLOR red]NTFPLAY[/COLOR][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -2643,32 +2767,69 @@ Nota: esse addon só funciona com Player gerenciador de torrents como o Quasar,Y
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="6.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
+
   </requires>
-  <extension point="xbmc.python.pluginsource" library="basedem.py">
+  <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR aquamarine]OnePlay[/COLOR] é apenas um AGREGADOR de links, Apenas agrega e organiza os links externos.</summary>
-    <description lang="en">[B][COLOR white]TV, Filmes, Series, Desenhos, Animes, Novelas e Muito Mais.[/COLOR][/B]</description>
-	<news>[COLOR aquamarine]Atualização v2.1.0[/COLOR]: BEM VINDO AO ONEPLAY-HD.
-[COLOR aquamarine]Atualização v2.2.1[/COLOR]: ATUALIZAÇÃO DE PLUGINS E IMAGENS.
-[COLOR aquamarine]Atualização v2.3.0[/COLOR]: ATUALIZAÇÃO PARA MELHORIAS E ESTABILIDADE.
-[COLOR aquamarine]Atualização v2.5.0[/COLOR]: MUDANÇA DE SERVIDOR, MAIS SEGURANÇA E FACILIDADE PARA A EQUIPE ONEPLAY.
-[COLOR aquamarine]Atualização v2.5.1[/COLOR]: ATUALIZAÇÃO DO SERVIDOR.
-[COLOR aquamarine]Atualização v2.6.0[/COLOR]: ATUALIZAÇÃO DO SERVIDOR E NOVAS IMAGENS.</news>
-    <platform>all</platform>
-	<assets>
+<summary>[B][COLOR yellow]Filmes, Series, Programas de TV e Muito Mais...[/COLOR][B]</summary>
+<description lang="pt">[B][COLOR yellow]Assim como o Google [COLOR white]NETFREE PLAY[/COLOR] Apenas Hospeda Os Links E Os Organiza. Não Tendo Assim Responsábilidade Sobre Os Mesmo.[/COLOR][/B]</description>
+<disclaimer lang="en">[B][COLOR yellow]No Entanto [COLOR white]NETFREE PLAY[/COLOR] NÃO AUTORIZA A COPIA DE SEUS ARQUIVOS EXTERNOS HOSPEDADOS.[/COLOR][/B]</disclaimer>
+<platform>all</platform>
+<assets>
 <icon>icon.png</icon>
 <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/1.jpeg</screenshot>
-<screenshot>resources/screenshots/2.jpeg</screenshot>
-<screenshot>resources/screenshots/3.jpeg</screenshot>
+<screenshot>ntfplay/screenshots/01.png</screenshot>
+<screenshot>ntfplay/screenshots/02.png</screenshot>
+<screenshot>ntfplay/screenshots/03.png</screenshot>
 </assets>
+</extension>
+</addon>
+
+<addon id="plugin.video.OnePlay" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]" version="2.9.1" provider-name="Equipe OnePlay">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.1.1"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="basedem.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]OnePlay[/COLOR][/B]">
+	<info compressed="false">http://raw.githubusercontent.com/OnePlayHD/OneRepo/master/addons.xml</info>
+	<checksum>http://raw.githubusercontent.com/OnePlayHD/OneRepo/master/addons.xml.md5</checksum>
+	<datadir zip="true">http://raw.githubusercontent.com/OnePlayHD/OneRepo/master/ZipFiles/</datadir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR aquamarine]ONE[/COLOR]PLAY - É um plugin de vídeo gratuito para o KODI que agrega links de reprodução de vídeos de vários tipos, semelhante a Netflix.
+   Levando o lazer e o prazer para vocês assistir e curtir cada momento com a família e amigos.</summary>
+    <description lang="en">[B][COLOR white]Repositorio Oficial[/COLOR] - [COLOR aquamarine]ONE[/COLOR]PLAY:[/B]  Instale ou atualize o add-on sem a necessidade de baixar o zip em um pen drive.</description>
+     <disclaimer lang="en">O autor nao e de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
+	 	<news>V2.9.1 - Correcão de bugs e atualizações dos scripts.</news>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
   </extension>
 </addon>
 
@@ -3250,7 +3411,43 @@ Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="repo.vikings" name="[B][COLOR yellow].Vikings  [COLOR orange]Repo[/B][/COLOR]" version="1.02" provider-name="Vikings Builds by @	Pio">">
+<addon id="repo.conexaoTV"
+ name="[B][COLOR white]Repositorio Cone[B][COLOR violet]x[B][COLOR  white]ão[/COLOR][/B] [B][COLOR violet]Tv[/COLOR][/B]"
+version="1.0.1" provider-name="Marciocn">">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="plugin.video.youtube" version="5.2.1" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+	<import addon="script.module.youtube.dl" optional="true"/>
+
+  </requires>
+  <extension point="xbmc.addon.repository" name="Vikings Repository">
+		<info compressed="false">http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml</info>
+		<checksum>http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/Marciocn/repo.conexaoTV/master/ZipFiles/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Conexao TV</summary>
+		<description>Repositorio oficial Conexao TV - Proibido reproducao sem previa autorizacao</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repo.vikings" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repo[/B][/COLOR]" version="1.08.1" provider-name="Vikings Builds by @Pio">">
 	<requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -3335,6 +3532,29 @@ Artwork by @konsumer420
             <screenshot>resources/print/1.jpg</screenshot>
             <screenshot>resources/print/2.jpg</screenshot>
             <screenshot>resources/print/3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.atto.team2.repository" name="[COLOR blue][B]ATTO PIXEL[/COLOR][COLOR yellow] 4K [/COLOR][COLOR aqua]REPOSITORY[/B][/COLOR]" provider-name="[COLOR aqua]Team ATTO[/COLOR]" version="2.7">
+    <extension point="xbmc.addon.repository" name="Repository Team Atto">
+        <info compressed="true">https://atto1.websiteseguro.com/addons/addons.xml</info>
+        <checksum>https://atto1.websiteseguro.com/addons/addons.xml.md5</checksum>
+        <datadir zip="true">https://atto1.websiteseguro.com/addons/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR aqua]Add-ons multimídia exclusivos para o receptor Atto Pixel[/COLOR]</summary>
+        <description lang="en">[COLOR aqua]Aqui pode encontrar os melhores complementos para Kodi, testado e aprovado pela equipe [COLOR blue]ATTO[/COLOR]. Sinta-se livre para instalar os complementos que você deseja.[COLOR yellow][COLOR blue]ATTO[/COLOR], faz uma compilação
+            dos melhores complementos da internet, Os créditos são para cada autor do complemento, [COLOR blue]ATTO[/COLOR] apenas disponibiliza seu conteúdo.[/COLOR]</description>
+        <disclaimer lang="en">[COLOR aqua][COLOR blue]ATTO[/COLOR], apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR]</disclaimer>
+        <forum>https://atto.tv/forum</forum>
+        <website>https://atto.tv/</website>
+        <license>http://www.gnu.org/licenses/</license>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
@@ -3426,6 +3646,51 @@ Artwork by @konsumer420
 	</extension>
 </addon>
 
+<addon id="repository.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] Repository" version="1.4" provider-name="Flecha Negra">
+	<requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simple.downloader" version="0.9.4"/>
+        <import addon="script.module.t0mm0.common" version="2.0.0"/>
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.httplib2" />
+        <import addon="script.module.simple.downloader" version="0.9.4"/>
+        <import addon="plugin.video.youtube" version="5.2.1" />
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.livestreamer"/>
+        <import addon="script.module.pyamf"/>
+        <import addon="script.common.plugin.cache" version="2.5.2"/>
+        <import addon="script.module.metahandler" version="2.5.1"/>
+	    <import addon="script.module.addon.common" />
+	    <import addon="script.module.addon.signals" version="0.0.1"/>
+	    <import addon="script.module.youtube.dl" optional="true"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="[B][COLOR red]Flecha Negra [COLOR red]repositorio[/B][/COLOR]">
+		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master</datadir>
+		<dir minversion="17.0.0">
+			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton</datadir>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>repositorio Flecha Negra</summary>
+		<description>repositorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
+	</extension>
+</addon>
+
 <addon id="repository.Live.Tv" name="[COLOR orange]Live Tv[/COLOR][COLOR white] Repo[/COLOR]" version="1.0" provider-name="Live Tv">
 	<extension point="xbmc.addon.repository" name="Repositorio Live Tv">
 		<info compressed="false">https://addon-live-tv.000webhostapp.com/Repo.Live.TV/addons.xml</info>
@@ -3501,6 +3766,20 @@ Artwork by @konsumer420
         <screenshot>resources/screenshots/02.jpg</screenshot>
         <screenshot>resources/screenshots/03.jpg</screenshot>
       </assets>
+	</extension>
+</addon>
+
+<addon id="repository.torrentbr" name="TorrentBR repository" version="1.0.0" provider-name="kreatorkodi">
+	<extension point="xbmc.addon.repository" name="TorrentBR repository">
+		<info compressed="false">http://raw.github.com/kreatorkodi/repository.torrentbr/master/addons.xml</info>
+		<checksum>http://raw.github.com/kreatorkodi/repository.torrentbr/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/kreatorkodi/repository.torrentbr/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>TorrentBR repository</summary>
+		<description>Filmes torrent HD</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
 	</extension>
 </addon>
 

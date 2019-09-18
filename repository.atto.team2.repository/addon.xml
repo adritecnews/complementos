@@ -1,0 +1,22 @@
+<addon id="repository.atto.team2.repository" name="[COLOR blue][B]ATTO PIXEL[/COLOR][COLOR yellow] 4K [/COLOR][COLOR aqua]REPOSITORY[/B][/COLOR]" provider-name="[COLOR aqua]Team ATTO[/COLOR]" version="2.7">
+    <extension point="xbmc.addon.repository" name="Repository Team Atto">
+        <info compressed="true">https://atto1.websiteseguro.com/addons/addons.xml</info>
+        <checksum>https://atto1.websiteseguro.com/addons/addons.xml.md5</checksum>
+        <datadir zip="true">https://atto1.websiteseguro.com/addons/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR aqua]Add-ons multimídia exclusivos para o receptor Atto Pixel[/COLOR]</summary>
+        <description lang="en">[COLOR aqua]Aqui pode encontrar os melhores complementos para Kodi, testado e aprovado pela equipe [COLOR blue]ATTO[/COLOR]. Sinta-se livre para instalar os complementos que você deseja.[COLOR yellow][COLOR blue]ATTO[/COLOR], faz uma compilação
+            dos melhores complementos da internet, Os créditos são para cada autor do complemento, [COLOR blue]ATTO[/COLOR] apenas disponibiliza seu conteúdo.[/COLOR]</description>
+        <disclaimer lang="en">[COLOR aqua][COLOR blue]ATTO[/COLOR], apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR]</disclaimer>
+        <forum>https://atto.tv/forum</forum>
+        <website>https://atto.tv/</website>
+        <license>http://www.gnu.org/licenses/</license>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
