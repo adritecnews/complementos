@@ -3368,7 +3368,7 @@ version="1.0.1" provider-name="Marciocn">">
 	</extension>
 </addon>
 
-<addon id="repository.adritecnews" name="[COLOR palegreen][B]UFAAAA [/B][/COLOR][COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]" version="1.1" provider-name="[COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]">
+<addon id="repository.adritecnews" name="[COLOR palegreen][B]UFAAAA [/B][/COLOR][COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]" version="2.0.1" provider-name="[COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]">
 	<requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
