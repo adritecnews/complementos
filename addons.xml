@@ -3292,7 +3292,7 @@ Artwork by @konsumer420
   </extension>
 </addon>
 
-<addon id="repo.adritecnews" name="[COLOR palegreen][B]UFAAAA [/B][/COLOR][COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]" version="1.0.0" provider-name="[COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]">
+<addon id="repo.adritecnews" name="[COLOR palegreen][B]UFAAAA [/B][/COLOR][COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]" version="1.0" provider-name="[COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -3314,7 +3314,7 @@ Artwork by @konsumer420
 	<extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B]News[/B][/COLOR]">
 		<info compressed="false">http://raw.github.com/adritecnews/complementos/adritec/repo.adritecnews/addons.xml</info>
 		<checksum>http://raw.github.com/adritecnews/complementos/adritec/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/adritecnews/complementos/adritec/</datadir>
+		<datadir zip="true">http://raw.github.com/adritecnews/complementos/adritec</datadir>
 	</extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en"></summary>
