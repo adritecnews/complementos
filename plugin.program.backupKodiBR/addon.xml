@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.backupKodiBR" name="[COLOR white][B]Backup[/B][/COLOR][COLOR skyblue][B]Kodi[/B][/COLOR] [COLOR lime][B]B[/B][/COLOR][COLOR yellow][B]R[/B][/COLOR]" version="2.0.1" provider-name="adritecNews">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="adritec.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="adritecopen.py" start="adritecopen" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt_BR">Por adritec News - backupKodiBR</summary>
+    <description lang="pt_BR">[COLOR white][B]Add-on[/B][/COLOR] [COLOR white][B]para[/B][/COLOR] [COLOR white][B]Backup[/B][/COLOR] e [COLOR white][B]Restauração[/B][/COLOR] no seu [COLOR white][B]Kodi[/B]![/COLOR] [COLOR white][B]O mais COMPLETO! Com [COLOR white][B]Backup[/B][/COLOR][COLOR skyblue][B]Kodi[/B][/COLOR] [COLOR lime][B]B[/B][/COLOR][COLOR yellow][B]R[/B][/COLOR] você faz AJUSTES, instala ART/Build Exclusiva, e deixa seu Kodi como NOVO![/COLOR] [COLOR white][B]*NOSSO CANAL: [B][COLOR dodgerblue]Pesquize no [COLOR white][/B][COLOR red][B]YouTube [/B][/COLOR] [B]por: [/B][COLOR dodgerblue][B]Adritec[/B][/COLOR][COLOR red][B] News[/B][/COLOR][COLOR white][B] *COLABORE: [/B][/COLOR][COLOR gold][B]https://apoia.se/adritecnews[/B][/COLOR]</description>
+    <disclaimer lang="pt_BR">[COLOR orangered][B]ATENÇÃO[/B]:[/COLOR][COLOR lawngreen] [B]"PROIBIDA COPIA E INFORMAÇÕES CONTIDOS NESSE SCRIPT (ADD-ON) SEM MINHA ALTORIZAÇÃO"[/B][/COLOR] [COLOR ][COLOR orangered][B]REGISTRO:[/COLOR] [COLOR skyblue][B]"SCRIPT REGISTRADO POR QUESTÃO DE DIREITOS AUTORAIS"[/B][/COLOR]</disclaimer>
+	<platform>all</platform>
+    <news>
+- Melhor addon criado, para Criar, Fazer, Realizar dentro do Kodi.
+- Criado melhorias dentro do addon, use e abuse e verás o resultado!
+*PROIBIDO CÓPIA SEM MINHA ALTORIZAÇÃO!	
+*Este trabalho está licenciado sob uma Licença Creative Commons 
+*Atribuição-NãoComercial-SemDerivações 4.0 Internacional. 
+*Para ver uma cópia desta licença, 
+*visite: http://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+    </news>	
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/prints/1.jpg</screenshot>
+    <screenshot>resources/prints/2.jpg</screenshot>
+    <screenshot>resources/prints/3.jpg</screenshot>
+    <screenshot>resources/prints/4.jpg</screenshot>
+  </assets>
+ </extension>
+</addon>
